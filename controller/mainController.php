@@ -12,6 +12,10 @@ switch($action) {
     case "contact":
         contactAction();
         break;
+        
+    case "profile":
+        profileAction();
+        break;
 }
 
 function homeAction() {
@@ -27,6 +31,10 @@ function savoirUtile($bdd) {
 
 function contactAction() {
     require("view/contact.php");
+}
+
+function profileAction() {
+    require("view/profile.php");
 }
 
 ?>

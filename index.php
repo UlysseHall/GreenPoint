@@ -18,7 +18,7 @@
             <?php
 
                 require("connectBdd.php");
-                $listAction = ["home", "login", "register", "game", "unlog", "savoirUtile", "contact"];
+                $listAction = ["home", "login", "register", "game", "unlog", "savoirUtile", "contact", "profile"];
                 $action = "home";
 
                 if(isset($_GET["action"]) && in_array($_GET["action"], $listAction)) {
@@ -51,6 +51,10 @@
                         break;
                         
                     case "contact":
+                        require("controller/mainController.php");
+                        break;
+                        
+                    case "profile":
                         require("controller/mainController.php");
                         break;
                 }

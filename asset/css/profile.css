@@ -1,0 +1,129 @@
+body {
+    overflow: hidden;
+}
+
+main {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.gradient {
+	width: 1357px;
+	height: 1357px;
+	border-radius: 100%;
+	background:radial-gradient(rgba(0,255,129,0.4),white, white);
+	position: absolute;
+	bottom: -500px;
+	left: -300px;
+	z-index: -1;
+}
+
+div.maincontainer {
+    width: 100%;
+    overflow: visible;
+}
+
+.openingcontent {
+    width: 60%;
+    float: left;
+}
+
+div.hello h1 {
+    font-family: "Raleway";
+    font-weight: lighter;
+    color: #00FF9F;
+    text-transform: uppercase;
+    font-size: 90px;
+    padding-top: 50px;
+    margin: inherit;
+    letter-spacing: 8.60pt;
+}
+
+h1 span {
+    transition: 1s;
+    font-family: "Ral-Thin";
+}
+
+h1 span:hover {
+    letter-spacing: 80pt;
+    transform: rotate(180deg);
+    font-weight: 300;
+
+}
+
+.btnreplay a:hover, .btnreceive a:hover {
+    border: 2px solid #00ffab;
+    padding: 1% 10%;
+    border-radius: 0;
+}
+
+.btnfind a:hover {
+    padding: 1% 8%;
+    border-radius: 0;
+}
+
+.pHello p {
+    font-family: "Raleway";
+    font-weight: inherit;
+    margin: 80px 0;
+    color: #2F2F2F;
+    letter-spacing: 0.5px;
+    font-size: 1.6rem;
+
+}
+
+.btnreplay, .btnfind, .btnreceive {
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+
+.btnreplay a, .btnfind a, .btnreceive a {
+	border: 2px solid #00ffab;
+    font-family: "Raleway";
+    font-weight: lighter;
+	color: black;
+    padding: 1% 10%;
+    transition: 0.4s;
+	text-decoration: none;
+	border-radius: 33px;
+    font-size: 1.5rem;
+    font-family: "Ral-Light"
+}
+
+.btnfind a {
+    padding: 1% 8%;
+}
+
+.sidecontent {
+    width: 40%;
+    float: right;
+}
+
+
+.sidecontent .title h2 {
+    font-family: "Ral-Light";
+    font-weight: 200;
+    color: #2F2F2F;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: inherit;
+    letter-spacing: 2.50px;
+    padding-top: 180px;
+}
+
+
+.sidecontent hr {
+    height: 2px;
+    background-color: #01FFA0;
+    border: none;
+    width: 700px;
+}
+
+.sidecontent .desc p {
+    letter-spacing: 0.5px;
+    font-family: "Raleway";
+    font-weight: inherit;
+    margin: 80px 0;
+    color: #2F2F2F;
+}

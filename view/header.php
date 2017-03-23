@@ -27,7 +27,7 @@
             if(isset($_SESSION["connected"]) && $_SESSION["connected"]) {
         ?>
                         
-            <img src="asset/img-layout/power.png" alt="power">
+            <a href="index.php?action=profile"><?php echo(ucfirst($_SESSION["username"])); ?></a>
             <a href="index.php?action=unlog">Déconnexion</a>
                         
         <?php } else { ?>
