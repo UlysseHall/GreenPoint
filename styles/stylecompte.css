@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+body {
+    zbackground-image: url('../img/bg.jpg');
+}
+
+main {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.gradient {
+	width: 1357px;
+	height: 1357px;
+	border-radius: 100%;
+	background:radial-gradient(rgba(0,255,129,0.4),white, white);
+	position: absolute;
+	bottom: -500px;
+	left: -300px;
+	z-index: -1;
+}
+
+div.head {
+    margin-top: 25px;
+    overflow: auto;
+}
+
+li.navlist {
+    display: inline-block;
+    font-family: "Raleway";
+    font-size: 16px;
+}
+
+a.navlist {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+div.nav {
+    float: left;
+    width: 60%;
+    padding-top: 25px;
+}
+
+div.logo {
+    float: left;
+    width: 15%;
+}
+
+img.connect {
+    float: left;
+    margin: 1em 6px 1em 0;
+}
+
+div.account {
+    width: 20%;
+    overflow: auto;
+    float: right;
+    padding-top: 25px;
+    font-size: 16px;
+    font-family: "Raleway";
+    font-weight: bold;
+}
+
+div.account a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+ul.navlist {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imglogo {
+    width: 65%;
+}
+
+.imglogo:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+div.maincontainer {
+    width: 100%;
+    overflow: visible;
+}
+
+.openingcontent {
+    width: 60%;
+    float: left;
+}
+
+div.hello h1 {
+    font-family: "Raleway";
+    font-weight: lighter;
+    color: #00FF9F;
+    text-transform: uppercase;
+    font-size: 90px;
+    padding-top: 50px;
+    margin: inherit;
+    letter-spacing: 8.60pt;
+}
+
+h1 span {
+    transition: 1s;
+}
+
+h1 span:hover {
+    letter-spacing: 80pt;
+    transform: rotate(180deg);
+    font-weight: 300;
+
+}
+
+.btnreplay a:hover, .btnreceive a:hover {
+    border: 2px solid #00ffab;
+    padding: 1% 10%;
+    border-radius: 0;
+}
+
+.btnfind a:hover {
+    padding: 1% 8%;
+    border-radius: 0;
+}
+
+.pHello p {
+    font-family: "Raleway";
+    font-weight: inherit;
+    margin: 80px 0;
+    color: #2F2F2F;
+    letter-spacing: 0.5px;
+
+}
+
+.btnreplay, .btnfind, .btnreceive {
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+
+.btnreplay a, .btnfind a, .btnreceive a {
+	border: 2px solid #00ffab;
+    font-family: "Raleway";
+    font-weight: lighter;
+	color: black;
+    padding: 1% 10%;
+    transition: 0.4s;
+	text-decoration: none;
+	border-radius: 33px;
+}
+
+.btnfind a {
+    padding: 1% 8%;
+}
+
+.sidecontent {
+    width: 40%;
+    float: right;
+}
+
+
+.sidecontent .title h2 {
+    font-family: "Raleway";
+    font-weight: 200;
+    color: #2F2F2F;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: inherit;
+    letter-spacing: 2.50px;
+    padding-top: 180px;
+}
+
+
+.sidecontent hr {
+    height: 3px;
+    background-color: #01FFA0;
+    border: none;
+    width: 700px;
+}
+
+.sidecontent .desc p {
+    letter-spacing: 0.5px;
+    font-family: "Raleway";
+    font-weight: inherit;
+    margin: 80px 0;
+    color: #2F2F2F;
+}
