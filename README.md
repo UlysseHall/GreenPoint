@@ -3,7 +3,7 @@ Semaine Intensive 3D + Web
 
 Bienvenue sur notre site !
 
-Green'point est une entreprise qui reprend le concept de la consigne, supprimée en 1980 en France.
+Green'point est une entreprise qui reprend le concept de la consigne, supprimée dans les années 70 en France.
 Le principe ? Triez vos déchets recyclables et insérez-les dans une de nos poubelles connectées partout dans les Naturalia. Félicitation ! Vous avez fait une belle action pour notre planète.
 
 Et pour vous récompenser, nous vous offrons des bons de réduction sur une sélection de produits bio de nos magasins partenaires, en fonction du poids de vos déchets.
