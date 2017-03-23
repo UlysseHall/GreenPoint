@@ -1,6 +1,13 @@
+@charset "utf-8";
+
+body {
+	font-family: 'Raleway';
+	overflow: hidden;
+}
+
 div#map {
 	margin-left: 7%;
-	margin-top: 50px;
+	margin-top: 7%;
 	width: 45%;
 	float: left;
 }
@@ -11,18 +18,17 @@ iframe {
 }
 
 div#trouver {
-	margin-right: 8%;
-	width: 30%;
+	margin-right: 10%;
+	width: 32%;
 	float: right;
 }
 
 h2 {
-	margin-top: 50px;
+	margin-top: 23%;
 	font-size: 70px;
 	font-weight: 100;
 	letter-spacing: 8px;
 	margin-bottom: 15%;
-    font-family: "Ral-Light";
 }
 
 p {
@@ -105,3 +111,8 @@ div#bouton {
 	margin-top: -5%;
 	margin-right: 20%;
 }
+
+
+
+
+

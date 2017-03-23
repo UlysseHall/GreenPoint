@@ -1,9 +1,8 @@
-body {
-    overflow: hidden;
-}
+@charset "utf-8";
 
-header {
-    margin-bottom: 30px;
+body {
+	font-family: 'Raleway';
+	overflow: hidden;
 }
 
 h2 {
@@ -15,7 +14,6 @@ h2 {
 	width: 55%;
 	font-weight: 100;
 	letter-spacing: 8.60px;
-    font-family: "Ral-Thin";
 }
 
 form.remplir {
@@ -37,15 +35,10 @@ input.saisir {
 	font-size: 16px;
 	transition: 0.2s;
 	width: 80%;
-    margin-top: 10px;
 }
 
 input.saisir:focus {
 	outline-width: 0;
-}
-
-input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
 
 input.saisir:hover {
@@ -87,8 +80,6 @@ a#login {
 	color: white;
 	background-color: #00ffab;
 	transition: 0.8s;
-    font-family: "Ral-Light";
-    font-size: 1.5rem;
 }
 
 a#login:hover {

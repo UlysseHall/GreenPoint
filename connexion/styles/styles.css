@@ -1,10 +1,10 @@
+@charset "utf-8";
+
 body {
-    overflow: hidden;
+	font-family: 'Raleway';
+	overflow: hidden;
 }
 
-header {
-    margin-bottom: 30px;
-}
 
 h2 {
 	color: #00ffab;
@@ -15,7 +15,6 @@ h2 {
 	width: 55%;
 	font-weight: 100;
 	letter-spacing: 8.60px;
-    font-family: "Ral-Thin";
 }
 
 form.remplir {
@@ -37,11 +36,6 @@ input.saisir {
 	font-size: 16px;
 	transition: 0.2s;
 	width: 80%;
-    margin-top: 10px;
-}
-
-input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
 
 input.saisir:focus {
@@ -68,8 +62,6 @@ a.connect {
 	text-decoration: none;
 	border-radius: 33px;
 	transition: 0.8s;
-    font-family: "Ral-Light";
-    font-size: 1.5rem;
 }
 
 a.connect:hover {
@@ -85,8 +77,6 @@ a#login {
 	color: white;
 	background-color: #00ffab;
 	transition: 0.8s;
-    font-family: "Ral-Light";
-    font-size: 1.5rem;
 }
 
 a#login:hover {
@@ -104,3 +94,11 @@ div.gradient {
 	left: -300px;
 	z-index: -1;
 }
+
+
+
+
+
+
+
+
