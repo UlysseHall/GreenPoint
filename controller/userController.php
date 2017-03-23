@@ -26,7 +26,7 @@ function registerAction($bdd) {
         $email = htmlentities($_POST["email"]);
         $password = htmlentities($_POST["password"]);
         
-        if($username == "" || $email == "" || $password = "")
+        if($username == "" || $email == "" || $password == "")
         {
             $_SESSION["flashRegisterError"] = "Veillez remplir tous les champs";
             header("Location: index.php?action=register");
@@ -44,19 +44,17 @@ function registerAction($bdd) {
             exit;
         }
         
-        $newUserReq = $bdd->prepare("INSERT INTO user(username, email, password, registration_date, reduction) VALUES(:username, :email, :password, NOW(), :reduction)");
+        $newUserReq = $bdd->prepare("INSERT INTO user(username, email, password, registration_date) VALUES(:username, :email, :password, NOW())");
         
         if($newUserReq->execute(array(
             ":username" => $username,
             ":email" => $email,
-            ":password" => sha1($password),
-            ":reduction" => 0
+            ":password" => sha1($password)
         ))) {
             
             $_SESSION["connected"] = true;
             $_SESSION["username"] = $username;
             $_SESSION["email"] = $email;
-            $_SESSION["reduction"] = 0;
             header("Location: index.php?action=home");
             exit;
         }
@@ -82,7 +80,7 @@ function loginAction($bdd) {
         $email = htmlentities($_POST["email"]);
         $password = sha1(htmlentities($_POST["password"]));
         
-        $loginReq = $bdd->prepare("SELECT username, email, reduction FROM user WHERE email = :email AND password = :password");
+        $loginReq = $bdd->prepare("SELECT username, email FROM user WHERE email = :email AND password = :password");
         $loginReq->execute(array(
             ":email" => $email,
             ":password" => $password
@@ -94,7 +92,6 @@ function loginAction($bdd) {
             $_SESSION["connected"] = true;
             $_SESSION["username"] = $user["username"];
             $_SESSION["email"] = $user["email"];
-            $_SESSION["reduction"] = $user["reduction"];
             header("Location: index.php?action=home");
             exit;
         }

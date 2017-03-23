@@ -15,7 +15,7 @@
             <div id="deuxboutons">
                 <input class="connect" type="text" name="username" placeholder="pseudo" required>
                 <div id="inscrit">
-                    <a class="click" onclick="$('form').submit();" id="login" href="#">inscription</a>
+                    <a class="click" onclick="$('form.remplir').submit();" id="login" href="#">inscription</a>
                 </div>
             </div>
             <div class="gradient"></div>

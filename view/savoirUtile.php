@@ -73,7 +73,7 @@ function scrollHorizontally(e) {
     e = window.event || e;
     var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
     document.documentElement.scrollLeft -= (delta*40);
-    document.body.scrollLeft -= (delta*100);
+    document.body.scrollLeft -= (delta*60);
     e.preventDefault();
 }
 if (window.addEventListener) {

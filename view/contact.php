@@ -6,7 +6,7 @@
 	<div id="trouver">
 		<h2>Où nous trouver ?</h2>
 		<p>Vous trouvez des machines à consigne <span id="vert">Green'point</span> dans tous les <span id="rouge">NATURALIA</span>
-		de Paris Nous arrivons bientôt dans d'autres enseignes bio parisiennes !</p>
+		de Paris. Nous arrivons bientôt dans d'autres enseignes bio parisiennes !</p>
 		<form method="post" action="index.php?action=login">
 			<input type="text" name="arrondissement" placeholder="Votre arrondissement">
 			<div id="bouton">

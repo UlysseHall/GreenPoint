@@ -36,18 +36,20 @@
 
 
 	<div class="desc">
-		<p class="desc">Du positif : le système fonctionne plutôt bien. En France, on a calculé que la collecte de déchets a six fois plus de succès quand une récompense est associée. recyclage du plastique bouteilles consigne Du négatif : l’association aux supermarchés est une solution, mais elle ne conviendra pas à tous, puisque tout le monde n’y va pas.</p>
+		<p class="desc">Depuis 1993, ce ne sont pas moins de 40 millions de tonnes d’emballages ménagers qui ont été recyclés par les Français. Faire le tri, c’est adopter des réflexes simples qui permettent de préserver notre planète. Vous voulez intégrer le mouvement et agir pour l’environnement ? Rien de plus simple !
+        Commencez par séparer le verre du plastique, cartons, canettes, conserves mais aussi du papier.</p>
 	</div>
 
 	<div class="descContainerNone">
 		<div id="tdesc1" class="txt">
-			<p>Du positif : le système fonctionne plutôt bien. En France, on a calculé que la collecte de déchets a six fois plus de succès quand une récompense est associée. recyclage du plastique bouteilles consigne Du négatif : l’association aux supermarchés est une solution, mais elle ne conviendra pas à tous, puisque tout le monde n’y va pas.</p>
+			<p>Depuis 1993, ce ne sont pas moins de 40 millions de tonnes d’emballages ménagers qui ont été recyclés par les Français. Faire le tri, c’est adopter des réflexes simples qui permettent de préserver notre planète. Vous voulez intégrer le mouvement et agir pour l’environnement ? Rien de plus simple !
+            Commencez par séparer le verre du plastique, cartons, canettes, conserves mais aussi du papier.</p>
 		</div>
 		<div id="tdesc2" class="txt">
-			<p>Trier est un geste facile au quotidien pour préserver les ressources naturelles et faire barrière à la pollution. Pas de panique pour faire le tri. Quelques réflexes vous aideront à devenir incollable et à faire de ce geste un réflexe pour vous et pour votre famille.</p>
+			<p>Une fois vos trois poubelles prêtes et bien remplies, une seule destination : les magasins bio de votre ville ! (ici nos partenaires). Vous pouvez alors découvrir nos machines Green’point. Pour les utiliser, rien de plus simple ; rentrez vos identifiants de connexion du site Green’point, puis choisissez le type de déchets que vous souhaitez recycler. Insérez-les, et le tour est joué ! Soyez fier, vous avez agi pour la planète.</p>
 		</div>
 		<div id="tdesc3" class="txt">
-			<p>Que faire de vos emballages, piles, médicaments, pots de peinture, jouets et autres textiles ? Un doute sur la couleur du bac de recyclage...</p>
+			<p>Et pour vous récompenser de cette belle action, vous recevez des bons de réduction de nos entreprises partenaires ! Accumulables ou utilisables immédiatement, leur valeur varie en fonction du poids de vos déchets. Ces coupons sont valables partout en France. Rien de plus simple pour pouvoir profiter de produits 100% naturels à tout petit prix !</p>
 		</div>
 	</div>
 	</div>

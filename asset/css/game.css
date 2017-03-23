@@ -1,23 +1,85 @@
-form {
+a:link, a:visited {
+	color: #000;
+}
+a:active, a:hover {
+	color: #666;
+}
+p.header {
+    font-size: small;
+}
+p.header span {
+    font-weight: bold;
+}
+p.footer {
+    font-size: x-small;
+}
+div.content {
+    margin-top: 20px;
+    width: 960px;
     float: left;
+    margin-right: 30px;
+}
+div.broken,
+div.missing {
+    margin: auto;
+    position: relative;
+    top: 50%;
+    width: 193px;
+}
+div.broken a,
+div.missing a {
+    height: 63px;
+    position: relative;
+    top: -31px;
+}
+div.broken img,
+div.missing img {
+    border-width: 0px;
+}
+div.broken {
+    display: none;
+}
+div#unityPlayer {
+    cursor: default;
+    height: 600px;
+    width: 960px;
 }
 
-.submitBtn {
-    clear: both;
+.game-infos {
+    margin-top: 20px;
 }
 
-input {
-    display: block;
-    margin-bottom: 10px;
+.gi-header {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Ral-Bold";
 }
 
-div#showdata {
-    float: left;
-    margin-left: 50px;
-    font-size: 1.5em;
+ul.gi-list-scores {
+    padding-top: 20px;
 }
 
-p {
-    margin: 0;
-    margin-bottom: 10px;
+ul.gi-list-scores li {
+    font-size: 1.7rem;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.gi-info-perso {
+    display: none;
+}
+
+.gi-info-perso .gi-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-fin-partie {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+.gi-bon {
+    font-size: 2rem;
+    text-align: center;
 }

@@ -10,7 +10,7 @@
                         <h1><span>Bonjour</span><br><?php echo($_SESSION["username"]); ?>!</h1>
                     </div>
                     <div class="pHello">
-                        <p>Grâce au tri sélectif vous avez générer <b>14.32€</b> !</p>
+                        <p>Grâce au tri sélectif vous avez généré <b>14.32€</b> !</p>
                     </div>
                 </div>
                 <div class="sidecontent">
@@ -22,7 +22,7 @@
                         <a href="#">Recevoir par mail</a>
                     </div>
                     <div class="btnfind draw">
-                        <a href="#">Trouver en magasin</a>
+                        <a href="index.php?action=contact">Trouver en magasin</a>
                     </div>
                 </div>
             </div>
