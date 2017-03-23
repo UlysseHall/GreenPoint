@@ -6,7 +6,7 @@ switch($action) {
         break;
         
     case "savoirUtile":
-        savoirUtile($bdd);
+        savoirUtile();
         break;
         
     case "contact":
@@ -22,10 +22,7 @@ function homeAction() {
     require("view/home.php");
 }
 
-function savoirUtile($bdd) {
-    $savoirReq = $bdd->query("SELECT content, header FROM savoir");
-    $savoirReq->execute();
-    
+function savoirUtile() {
     require("view/savoirUtile.php");
 }
 
