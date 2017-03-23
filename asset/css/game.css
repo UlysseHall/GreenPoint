@@ -1,0 +1,23 @@
+form {
+    float: left;
+}
+
+.submitBtn {
+    clear: both;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div#showdata {
+    float: left;
+    margin-left: 50px;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Ral-Thin";
+    src: url("../font/Raleway-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Ral-Reg";
+    src: url("../font/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Ral-Med";
+    src: url("../font/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Ral-Bold";
+    src: url("../font/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Ral-Light";
+    src: url("../font/Raleway-Light.ttf");
+}
+
+* {
+    font-family: "Ral-Reg", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main-container
+{
+    padding: 20px 5% 0 5%;
+}
+
+header {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header-logo {
+    width: 10%;
+    min-width: 100px;
+}
+
+.header-logo img {
+    width: 70%;
+}
+
+.header-link {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.header-link ul li {
+    list-style: none;
+}
+
+.header-link ul li a {
+    font-family: "Ral-Med";
+}
+
+.header-account {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 32%;
+}
+
+.header-account img {
+    width: 1.2em;
+}
+
+.header-account a {
+    font-family: "Ral-Bold", Arial, sans-serif;
+}
+
+.header-account a:last-child {
+    margin-left: 30px;
+}

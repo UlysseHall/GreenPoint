@@ -1,0 +1,21 @@
+.savoir-utile-container {
+    padding-top: 100px;
+    white-space: nowrap;
+    position: relative;
+    margin-left: 200px;
+}
+
+.info-utile {
+    max-width: 450px;
+    display: inline-block;
+    white-space: normal !important;
+    margin-right: 250px;
+}
+
+.info-utile-header {
+    font-size: 5rem;
+}
+
+.info-utile-content {
+    font-size: 2rem;
+}
